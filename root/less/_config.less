@@ -1,0 +1,105 @@
+@import "_fonts.less";
+
+/*--------------------------- CONFIG.LESS --------------------------------*/
+
+//------------------- MEDIA QUERIES ---------------------//
+
+@XL:   	~"only screen and (min-width: 0px)";
+@L:   	~"only screen and (min-width: 1200px)";
+@M:   	~"only screen and (min-width: 992px) and (max-width: 1199px)";
+@S:  	~"only screen and (min-width: 769px) and (max-width: 991px)";
+@XS:  	~"only screen and (max-width: 768px)";
+@XXS:   ~"only screen and (max-width: 479px)";
+
+@BELOW-SM: 	~"only screen and (max-width: 991px)";
+
+@MOBILE-H: 	~"only screen and (max-height: 855px)";
+
+@beta-background-color:#ffea00; 				//-- YELLOW --//
+@omega-background-color:#D0D0D0;				//-- LIGHT GREY--//
+
+@upper-carousel-arrows:@beta-background-color;
+@lower-carousel-arrows:@omega-background-color;
+
+//------------------- GENERAL THEMES ---------------------//
+
+@alpha-background-color:#292929; 				//-- DARKEST GREY --//
+@beta-background-color:#343434; 				//-- DARK GREY --//
+@gamma-background-color:#FFFFFF; 				//-- WHITE --//
+@delta-background-color:#000000;				//-- BLACK--//
+@Epsilon-background-color:#404040;				//-- LIGHT GREY--//
+@zeta-background-color:#111111;					//-- NEAR BLACK--//
+
+@alpha-text-color:#ffffff;  //-- WHITE --//
+@beta-text-color:#000;		//-- BLACK --//
+@gamma-text-color:#f3cd6e;	//-- YELLOW --//
+
+@alpha-font:'lunchtype21regular';
+@alpha-font-bold:'lunchtype21bold';
+
+@beta-font:'aero_matics_lightregular';
+@gamma-font:'liberation_serifregular';
+@gamma-font-bold:'liberation_serifbold';
+
+
+@link-color: #08c;			//-- BLUE --//
+
+
+//------------------- UNIT THEMES ---------------------//
+
+@alpha-theme-color:#14B1E7;
+@beta-theme-color:#f26c4f;
+@gamma-theme-color:#39b54a;
+@delta-theme-color:#faa634;
+@epsilon-theme-color:#d9e01f;
+@zeta-theme-color:#9c3c9a;
+@eta-theme-color:#1cbbb4;
+
+
+
+//------- DEFAULT FONT SIZES --------*/
+
+@4XL-font-size:60px;
+@XXXL-font-size:40px;
+@XXL-font-size:36px;
+@XL-font-size:30px;
+@L-font-size:24px;
+@M-font-size:18px;
+@S-font-size:16px;
+@XS-font-size:14px;
+@XXS-font-size:12px;
+@XXXS-font-size:10px;
+
+@XL-container:1370px; // UNUSED //
+@L-container:1170px;
+@M-container:970px;
+@S-container:750px;
+
+//------- VARIABLES FOR CALCULATION --------*/
+
+@_footer-height:100px;
+@_header-height:60px;
+
+
+//------- MAIN MENU --------*/
+
+@main-menu-border:@gamma-background-color;
+@wrapper-bottom:@_footer-height;
+@page-top:@_header-height;
+@main-menu-top:0px;
+@main-wrapper-footer-offset:@_header-height;
+
+//------- HEADER --------*/
+
+@header-height:@_header-height;
+
+
+//------- FOOTER --------*/
+
+@footer-border-color:@gamma-background-color;
+@footer-background-color:@alpha-background-color;
+@footer-height:@_footer-height;
+
+//------- MODULE --------*/
+
+@title-underline-color:@gamma-background-color;
