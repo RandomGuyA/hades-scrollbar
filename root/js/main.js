@@ -5,12 +5,8 @@
 
     /*---------------------- GLOBAL VARIABLES ------------------------*/
 
-    var name = 'Hades Scrollbar';
-    var self, $el, opts;
-    var $track;
-    var $handle;
-    var $viewport;
-    var $scrollable;
+    var name = 'Hades Audio Player';
+    var self, $el, opts, audio, time_line , play_head, duration;
 
 
     /*---------------------- INITIALISATION ------------------------*/
@@ -41,155 +37,108 @@
         self = this;
         $el = self.$el;
         opts = self.defaults;
-        $track = $el.find('.track');
-        $handle = $el.find('.handle');
-        $viewport = $el.find('.viewport');
-        $scrollable = $el.find('.scrollable');
+        audio = $el.find('audio')[0];
+        time_line = $el.find('#time-line')[0];
+        play_head = $el.find('#play-head')[0];
 
-        var current_position = $scrollable.scrollTop();
-        var content_height = get_content_height($scrollable);
-        var view_height = $viewport.height();
+        var play_pause_button  = $('#play-pause');
+        play_pause_button.play_pause_event();
+        duration = audio.duration;
 
-        //console.log(view_height);
-        //console.log(current_position);
-        console.log(content_height);
-        console.log(view_height);
 
-        setup_handle_height(content_height, view_height);
+        audio.addEventListener("canplaythrough", function () {
+            duration = audio.duration;
+        }, false);
 
-        $viewport.scroll_event();
-        $handle.add_drag_function_to_element();
+        audio.addEventListener('timeupdate', function(){
+
+            var play_head_width = $(play_head).width();
+            var play_percent = (audio.currentTime / duration);
+            var pixel_length = $(time_line).width() * play_percent - play_head_width;
+            pixel_length = (pixel_length<=0)?0:pixel_length;
+            $(play_head).css('margin-left', pixel_length + "px");
+
+        }, false);
+
+        audio.addEventListener('pause', function(){
+            play_pause_button.find('img').attr('src', 'assets/icons/play-icon.png');
+        });
+
+        time_line.addEventListener("click", function (event) {
+            move_play_head(event);
+            audio.currentTime = duration * click_percent(event);
+        }, false);
+
+
     };
 
 
     /*---------------------- EVENT HANDLERS ------------------------*/
 
-    $.fn.scroll_event = function (){
+    $.fn.play_pause_event = function (){
         return this.each(function () {
-            $(this).on('mousewheel', function(event) {
-                if(event.deltaY == -1){
-                    console.log($scrollable.scrollTop());
-                    adjust_handle();
-                }
-                if(event.deltaY == 1){
-                    console.log($scrollable.scrollTop());
-                    adjust_handle();
+            $(this).on('click', function(){
+                var $icon = $(this).find('img');
+                if (audio.paused) {
+                    audio.play();
+                    $icon.attr('src', 'assets/icons/pause-icon.png');
+                } else {
+                    audio.pause();
+                    $icon.attr('src', 'assets/icons/play-icon.png');
                 }
             });
         });
     };
 
-
-    $.fn.add_drag_function_to_element = function () {
+    $.fn.time_update_event = function (){
         return this.each(function () {
-            $(this).draggable({
 
-                containment: "parent",
-                axis: "y",
-
-                start: function (event, ui) {
-                    console.log("started dragging");
-
-                    console.log($(this).position().top);
-                },
-                drag: function (event, ui) {
-                    console.log("currently dragging");
-                    adjust_content();
-                },
-                stop: function (event, ui) {
-                    console.log("stopped dragging");
-                    console.log($(this).position().top);
-                    $handle.add_drag_function_to_element();
-                }
-            });
         });
     };
 
 
+    $.fn.can_play_through_event = function (){
+        return this.each(function () {
+
+        });
+    };
 
     /*---------------------- BINDING FUNCTIONS ------------------------*/
 
 
 
-
-
     /*---------------------- PRIVATE FUNCTIONS ------------------------*/
 
-    function adjust_content(){
-
-        var current_position = parseInt($handle.css('top'));
-        var inner_track_height = $track.height() - $handle.height();
-        var position_percentage = calculate_percentage(current_position , inner_track_height);
-
-        var handle_position = parseInt(position_percentage/100 * get_inner_height());
-        console.log(handle_position);
-        $scrollable.scrollTop(handle_position);
+    function time_update() {
+        var play_percent = 100 * (audio.currentTime / duration);
+        $(play_head).css('margin-left', play_percent + "%");
     }
 
-    function adjust_handle(){
-
-        var current_position = $scrollable.scrollTop();
-        var position_percentage = calculate_percentage(current_position , get_inner_height());
-        var inner_track_height = $track.height() - $handle.height();
-        var handle_position = position_percentage/100 * inner_track_height;
-        $handle.css('top', handle_position+"px");
-
+    function click_percent(e) {
+        return (e.pageX - time_line.offsetLeft) / $(time_line).width();
     }
 
-    function get_inner_height(){
+    function move_play_head(e) {
+        var newMargLeft = e.pageX - time_line.offsetLeft;
+        var time_line_width = $(time_line).width();
+        var play_head_width = $(play_head).width();
 
-        var content_height = get_content_height($scrollable);
-        var view_height = $viewport.height();
-        var padding = get_content_margin_total($scrollable);
-        return content_height - view_height + padding;
-    }
-
-    function setup_handle_height(content_height, view_height){
-
-        var percentage = calculate_percentage(view_height, content_height);
-        var track_height = $track.height();
-        var handle_height = percentage / 100 * track_height;
-        $handle.css('height', handle_height);
-
-    }
-
-    function calculate_percentage(view_height, content_height) {
-        return (100 / content_height * view_height);
-    }
-
-    function get_content_margin_total($scroll_area){
-
-        var height = 0;
-
-        $scroll_area.find('*').each(function() {
-            height+= (get_margin(this, "top") + get_margin(this, "bottom"));
-        });
-
-        return height;
-
-    }
-
-    function get_margin(element, loc){
-        return  parseInt(window.getComputedStyle(element).getPropertyValue("margin-" + loc));
-    }
-
-    function get_content_height($scroll_area){
-
-        var height = 0;
-
-        $scroll_area.find('*').each(function() {
-            height+=$(this).height();
-        });
-
-        return height;
-
+        if (newMargLeft == 0 && newMargLeft == time_line_width) {
+            $(play_head).css('margin-left', newMargLeft + "px");
+        }
+        if (newMargLeft <= 0) {
+            $(play_head).css('margin-left', "0px");
+        }
+        if (newMargLeft  >= time_line_width) {
+            $(play_head).css('margin-left', time_line_width + "px");
+        }
     }
 
     //-----------------------------------------
     //				INVOCATION
     //-----------------------------------------
 
-    $.fn.hades_scroll_bar = function(opts) {
+    $.fn.hades_audio_player = function(opts) {
         return this.each(function() {
             new App(this, opts);
         });

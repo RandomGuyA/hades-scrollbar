@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f53bd3c4-8c6f-456c-ac82-083d3f79e35b" name="Default" comment="" />
+    <list default="true" id="f53bd3c4-8c6f-456c-ac82-083d3f79e35b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/arrow icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/audio-down-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/audio-icon-nobox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/audio-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/audio-up-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/back-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/camera-icon01.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/content-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/definition-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/discussion-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/favicon_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/favicon_32.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/favicon_32.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/film-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/image-slider-with-arrows.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/info-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/link-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/lip-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/literacy-icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/maximise-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/measure-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/menu-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/mobile-menu-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/notes-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/pause-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/pin-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/play-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/question-mark-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/questions-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/soundbarmove-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/stop-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/text-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/theme-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/white arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/white-arrow-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/white-arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/white-arrow.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/audio/test.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/assets/icons/lip-icon.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/root/less/audio-player.less" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/root/less/content-slider.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/root/less/hades_scrollbar.less" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/root/scripts/jquery.hades-scrollbar.js" afterPath="$PROJECT_DIR$/root/scripts/jquery.hades-audio-player.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/css/style.css" afterPath="$PROJECT_DIR$/root/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/index.html" afterPath="$PROJECT_DIR$/root/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/js/main.js" afterPath="$PROJECT_DIR$/root/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/root/js/main.min.js" afterPath="$PROJECT_DIR$/root/js/main.min.js" />
+    </list>
     <ignored path="web-application-template-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -23,53 +74,25 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="content-slider.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/root/less/content-slider.less">
+          <file leaf-file-name="jquery.hades-audio-player.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-audio-player.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="hades_scrollbar.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/root/less/hades_scrollbar.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="935">
-                  <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_config.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/root/less/_config.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1496">
-                  <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="jquery.hades-scrollbar.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-scrollbar.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="893">
-                  <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+                <state relative-caret-position="1005">
+                  <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
+                    <element signature="e#2610#2669#0" expanded="false" />
+                    <element signature="e#2718#2777#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="rangeslider.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/root/vendors/rangeslider/rangeslider.css">
+          <file leaf-file-name="audio-player.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/root/less/audio-player.less">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -82,8 +105,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/root/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                <state relative-caret-position="705">
+                  <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="54" />
                   <folding />
                 </state>
               </provider>
@@ -100,6 +123,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -115,12 +141,14 @@
         <option value="$PROJECT_DIR$/root/css/style.min.css" />
         <option value="$PROJECT_DIR$/root/js/main.js" />
         <option value="$PROJECT_DIR$/root/js/main.min.js" />
-        <option value="$PROJECT_DIR$/root/package.json" />
         <option value="$PROJECT_DIR$/root/less/content-slider.less" />
         <option value="$PROJECT_DIR$/root/less/_config.less" />
-        <option value="$PROJECT_DIR$/root/index.html" />
-        <option value="$PROJECT_DIR$/root/scripts/jquery.hades-scrollbar.js" />
         <option value="$PROJECT_DIR$/root/less/hades_scrollbar.less" />
+        <option value="$PROJECT_DIR$/root/package.json" />
+        <option value="$PROJECT_DIR$/root/scripts/jquery.hades-scrollbar.js" />
+        <option value="$PROJECT_DIR$/root/index.html" />
+        <option value="$PROJECT_DIR$/root/scripts/jquery.hades-audio-player.js" />
+        <option value="$PROJECT_DIR$/root/less/audio-player.less" />
       </list>
     </option>
   </component>
@@ -167,7 +195,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -208,7 +236,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hades_scrollbar_plugin" />
+              <option name="myItemId" value="hades-audio-player" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -218,11 +246,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="hades_scrollbar_plugin" />
+              <option name="myItemId" value="hades-audio-player" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="root" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-application-template-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hades-audio-player" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="root" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-application-template-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hades-audio-player" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="root" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="icons" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-application-template-test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hades-audio-player" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="root" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="audio" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,7 +323,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../literacy-pack" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
@@ -243,10 +333,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Apache24\htdocs\hades-audio-player\root\assets\icons" />
+      <recent name="C:\Apache24\htdocs\hades-audio-player\root\assets" />
+      <recent name="C:\Apache24\htdocs\hades-audio-player\root\assets\audio" />
       <recent name="C:\Apache24\htdocs\testing\hades_scrollbar_plugin\root\vendors" />
       <recent name="C:\Apache24\htdocs\testing\hades_scrollbar_plugin\root\less" />
-      <recent name="C:\Apache24\htdocs\testing\hades_question_master_plugin\root" />
-      <recent name="C:\Apache24\htdocs\testing area\web-application-template-test\root\css" />
     </key>
   </component>
   <component name="RunManager">
@@ -327,30 +418,36 @@
       <workItem from="1472819394569" duration="11438000" />
       <workItem from="1473069595077" duration="931000" />
       <workItem from="1473089612875" duration="29000" />
+      <workItem from="1473102099009" duration="5703000" />
+      <workItem from="1473267080111" duration="14000" />
+      <workItem from="1473443907725" duration="58000" />
+      <workItem from="1473444053691" duration="927000" />
+      <workItem from="1473445455262" duration="6579000" />
+      <workItem from="1473585772772" duration="1630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49457000" />
+    <option name="totallyTimeSpent" value="64368000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18710022" sideWeight="0.64021885" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15724947" sideWeight="0.6143012" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18710022" sideWeight="0.35978112" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15724947" sideWeight="0.3856988" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2165059" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2156013" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21329047" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2112676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -373,13 +470,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/root/less/question_master.less" />
-    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-scrollbar.js">
+    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-audio-player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="81" column="48" selection-start-line="81" selection-start-column="48" selection-end-line="81" selection-end-column="48" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2610#2669#0" expanded="false" />
+            <element signature="e#2718#2777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -394,12 +492,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/root/data/xml/question-bank.xml" />
     <entry file="file://$PROJECT_DIR$/root/less/question_master.less" />
-    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-scrollbar.js">
+    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-audio-player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2610#2669#0" expanded="false" />
+            <element signature="e#2718#2777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -422,12 +522,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-scrollbar.js">
+    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-audio-player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="44" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2610#2669#0" expanded="false" />
+            <element signature="e#2718#2777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -442,12 +544,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-scrollbar.js">
+    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-audio-player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
           <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2610#2669#0" expanded="false" />
+            <element signature="e#2718#2777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -462,24 +566,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-scrollbar.js">
+    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-audio-player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1887">
           <caret line="111" column="28" selection-start-line="111" selection-start-column="28" selection-end-line="111" selection-end-column="28" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2610#2669#0" expanded="false" />
+            <element signature="e#2718#2777#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/root/data/xml/question-bank.xml" />
     <entry file="file://$PROJECT_DIR$/root/less/question_master.less" />
-    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-scrollbar.js">
+    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-audio-player.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2610#2669#0" expanded="false" />
+            <element signature="e#2718#2777#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,13 +657,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/root/data/xml/question-bank.xml" />
     <entry file="file://$PROJECT_DIR$/root/less/question_master.less" />
-    <entry file="file://$PROJECT_DIR$/root/less/_fonts.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/root/less/_reset.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -589,14 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/root/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -604,15 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="19" selection-start-line="88" selection-start-column="19" selection-end-line="88" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/root/vendors/rangeslider/rangeslider.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,48 +704,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/root/less/content-slider.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/root/less/content-slider.less" />
     <entry file="file://$PROJECT_DIR$/root/vendors/jquery-mousewheel/jquery.mousewheel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root/less/hades_scrollbar.less" />
+    <entry file="file://$PROJECT_DIR$/root/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root/vendors/rangeslider/rangeslider.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root/less/_fonts.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="75" selection-start-line="1" selection-start-column="75" selection-end-line="1" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/root/less/audio-player.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/root/less/hades_scrollbar.less">
+    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-audio-player.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/root/scripts/jquery.hades-scrollbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        <state relative-caret-position="1005">
+          <caret line="69" column="18" selection-start-line="69" selection-start-column="18" selection-end-line="69" selection-end-column="18" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="e#2610#2669#0" expanded="false" />
+            <element signature="e#2718#2777#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/root/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="705">
+          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="54" />
           <folding />
         </state>
       </provider>
